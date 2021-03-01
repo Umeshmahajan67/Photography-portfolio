@@ -1,0 +1,440 @@
+
+/*-------*/
+body{
+    background: #C6FFDD;  
+background: -webkit-linear-gradient(to left, #f7797d, #FBD786, #C6FFDD); 
+background: linear-gradient(to left, #f7797d, #FBD786, #C6FFDD); 
+
+}
+h2{
+    font-family: 'playfair Display',serif;
+    font-size: 200%;
+    font-weight: 700;
+    color: #2C2C2C;
+    text-align: center;
+    
+}   
+p{
+    font-family:'raleway',serif;
+    color: black;
+    font-size: 140%;
+    line-height: 180%;
+    text-align: justify;
+    font-weight: 300%;
+   }
+img{
+    text-align: center;
+    max-width: 110%;
+    height: auto;
+    width: auto;
+}
+.myimg{
+    width: 400px;
+    height: 400px;
+    margin: 4px 14px 4px 4px;
+    float: right;
+    
+}
+
+.intro{
+    height: 800px;
+    width: 100%;
+ background: url("cristina-gottardi-JiLTJODH5j4-unsplash.jpg") no-repeat; 50% 50%;
+    background-size:cover;
+    margin: auto;
+    display: table;
+    top:0; 
+    background-attachment:local;
+ background-position: center;
+
+    }
+
+.intro .inner {
+    display:inline-flex;
+    vertical-align:middle;
+    width: 100%;
+    max-width: none;
+}
+.content{
+    max-width:  600%;
+    margin: auto;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 300%;
+    font-weight: 700;
+    color: skyblue;
+    text-align: center;
+    padding: 2% ;
+    text-shadow: 0px 0px 250px #000;
+}
+.content p {
+    color: #FFF;
+}
+.inner {
+    max-width: 600px;
+    margin: auto;
+    font-size: 170%;
+    line-height: 1.6;
+    padding: 10px;
+}
+/*-------strt nav------*/
+
+nav {
+    float: left;
+    padding: 5% 5% 0 0;
+    height: 50px;
+}
+nav active ul {
+    list-style: none;
+    float:left;
+}
+nav ul li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 120%;
+}
+nav ul li a{
+    color: #FFF;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+nav ul, nav:active ul{
+    display: none;
+    padding: 8px 0;
+    width: 20%;
+    z-index: 1000;
+}
+nav li{
+    width: 100%;
+    padding: 8px 0 10px 7px;
+    margin: 0;
+}
+nav:hover ul{
+    display: block;
+    position: absolute;
+}
+#menu-icon{
+    width: 50px;
+    height: 50px;
+    background:  url(nav-icon.png)center;
+    display: "inline-block";
+}
+.toggle-nav {
+		padding:30px;
+		float:left;
+		display:inline-block;
+		box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+		text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+		color:black;
+		font-size:20px;
+		transition:color linear 0.15s;
+	}
+
+	.toggle-nav:hover, .toggle-nav.active {
+		text-decoration:none;
+		color:#66a992;
+	}
+/*-------about---------*/
+
+.left-col{
+    width: 60%;
+    float:  left;
+    margin: 2% 2% 2% 2%;
+}
+
+    
+
+.one-third-port{
+    width: 29.333333%;
+    padding: 2%;
+    float: left;
+}
+.one-third-port img:hover{
+    opacity: .6;
+}
+.contact p{
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.contact a{
+    color: #2c2c2c; 
+}
+.break {
+    display: none;
+}
+.clearfix{
+    clear: both;
+    height: 3%;
+}
+.parallax {
+     background: url("david-clode-nyvR6wbU1ho-unsplash.jpg") repeat fixed 100%;
+    opacity: .8;
+     background-size:cover;
+    display:block;
+}
+.parallax-inner{
+    padding-top: 17%
+}
+/* footer social icons */
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+/*------------foooter*/
+
+
+.container{
+    text-align: center;
+    padding: 5%;
+}
+a.btn-social,
+.btn-social
+{
+   text-align:center;
+ border-radius: 45%;
+    color: #ffffff !important;
+    display: inline-block;
+    height: 54px;
+    line-height: 54px;
+    margin: 8px  4px;
+    text-decoration: none;
+    transition: background-color .3s;
+    width: 54px;
+    
+}
+
+.btn-social .fa,.btn-social i
+{
+    backface-visibility: hidden;
+    transform: scale(1);
+    transition: all .25s;
+    
+}
+.btn-social:hover,.btn-social:focus
+{
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+    
+}
+.btn-social:hover .fa,.btn-social:focus .fa,.btn-social:hover i,.btn-social:focus i
+{
+    ms-transform: scale(1.3);
+    o-transform: scale(1.3);
+    transform: scale(1.3)
+}
+.btn-social.btn-xs
+{
+    font-size: 9px;
+    height: 24px;
+    line-height: 13px;
+    margin: 6px 2px;
+    width: 24px;
+
+}
+.btn-social.btn-sm
+{
+    font-size: 13px;
+    height: 36px;
+    line-height: 18px;
+    margin: 6px 2px;
+    width: 36px;
+
+}
+.btn-social.btn-lg
+{
+    font-size: 22px;
+    height: 72px;
+    line-height: 40px;
+    margin: 10px 6px;
+    width: 72px;
+
+    
+}
+
+
+.btn-facebook
+{
+    background-color: #3b5998;
+}
+.btn-facebook:hover
+{
+    background-color: #4c70ba;
+}
+.btn-google-plus
+{
+    background-color: #dd4b39;
+}
+.btn-google-plus:hover
+{
+    background-color: #e47365;
+}
+.btn-instagram
+{
+    background-color: #3f729b;
+}
+.btn-instagram:hover
+{
+    background-color: #548cb9;
+}
+.btn-pinterest
+{
+    background-color: #cc2127;
+}
+.btn-pinterest:hover
+{
+    background-color: #e04046;
+}
+.btn-twitter
+{
+    background-color: #55acee;
+}
+.btn-twitter:hover
+{
+    background-color: #83c3f3;
+}
+.btn-youtube
+{
+    background-color: #e52d27;
+}
+.btn-youtube:hover
+{
+    background-color: #ea5955;
+}
+.btn-email
+{
+    background-color: #44c456;
+}
+.btn-email:hover
+{
+    background-color: #6bd079;
+}
+
+
+footer.Second {
+   background: #fd746c; 
+background: -webkit-linear-gradient(to right, #ff9068, #fd746c); 
+background: linear-gradient(to right, #ff9068, #fd746c); 
+}
+footer.Second p {
+    color: black;
+    text-align: center;
+    padding: 5%;
+}
+
+/*--------screen---*/
+
+@media screen and (max-width:667px){
+    #menu-icon{
+        margin: 26px 0 0 26px;
+    }
+    nav ul, nav:active ul
+    {
+        padding: 8px 0;
+        left: 23px;
+        top:34px;
+        width: 50%;
+    }
+    .inner{
+        font-size: 20%;
+    }
+    .content h1{
+        font-size: 80px;
+    }
+    p{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 60px;
+    }
+    .left-col {
+        width: 96%;
+        margin: 0 0 3% 0;
+    padding: 0 2%;
+    }
+    .sidebar {
+        width: 96%;
+        margin: 0 auto;
+    }
+    .img{
+        padding: 2%;
+    }
+    .one-third-port {
+        width: 96%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .break{
+        display: block;
+    }
+    .parallax{
+        display: none;
+    }
+    .social i{
+        font-size: 170%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
